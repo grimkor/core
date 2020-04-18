@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env But it's python3
 """Home Assistant setup script."""
 from datetime import datetime as dt
 

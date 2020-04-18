@@ -137,6 +137,9 @@ async def async_setup(hass, config) -> bool:
     hass.async_create_task(
         hass.helpers.discovery.async_load_platform("sensor", DOMAIN, {}, config)
     )
+    hass.async_create_task(
+        hass.helpers.discovery.async_load_platform("switch", DOMAIN, {}, config)
+    )
 
     return True
 
